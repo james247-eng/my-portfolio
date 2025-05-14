@@ -5,8 +5,25 @@ TemplateMo 578 First Portfolio
 https://templatemo.com/tm-578-first-portfolio
 
 */
-
-
+.tenplate-note{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  justify-self: center;
+}
+.tenplate-note h3{
+  color: #14B789;
+}
+.template-img{
+  box-shadow: 0px 5px 20px #717275;
+}
+.template-img:hover{
+  box-shadow: 0px 5px 0px #717275;
+  transform: scaleX(1.1);
+  transition: 0.5s ease;
+}
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -592,29 +609,8 @@ strong {
 .check-project-button:hover{
   background-color: #02523b;
 }
-/*---------------------------------------
-  FEATURED              
------------------------------------------*/
-/*
-.featured-numbers {
-  font-size: var(--h1-font-size);
-  line-height: normal;
-  display: block;
-}
 
-.featured-text {
-  color: var(--secondary-color);
-}
 
-.featured-border-bottom {
-  border-bottom: 1px solid var(--border-color);
-}
-
-.featured-border-start {
-  border-left: 1px solid var(--border-color);
-}
-
-*/
 /*---------------------------------------
   CLIENTS              
 -----------------------------------------*/
